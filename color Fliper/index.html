@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container{
+            text-align: center;
+        }
+        h1{
+            width: 100%;
+            background-color: dimgray;
+            padding: 10px 30px;
+            color: #fff;
+            border-radius: 10px;
+        }
+
+        #btn{
+            padding: 10px 30px;
+            color: #fff;
+            outline: none;
+            cursor: pointer;
+            background: dimgray;
+            margin-top: 20px;
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Background Color: <span class="color"></span></h1>
+        <button id="btn">Click Me</button>
+    </div>
+
+    <script type="text/javascript">
+        const colorArray = ["violet","indigo","blue","green","yellow","orange","red"];
+        const btn = document.getElementById('btn');
+        const color = document.querySelector('.color');
+
+        btn.addEventListener("click",function(){
+            const random = Math.floor(Math.random()*colorArray.length);
+            document.body.style.backgroundColor = colorArray[random];
+            color.innerHTML = colorArray[random];
+        });
+    </script>
+</body>
+</html>
