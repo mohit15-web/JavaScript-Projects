@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.425);
+}
+
+.container{
+    text-align: center;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 30px;
+    color: #100f0f;
+    border-radius: 10px;
+}
+
+.card-body h1{
+    margin-bottom: 15PX;
+    font-size: 5rem;
+}
+/* h1{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 30px;
+    color: #100f0f;
+    border-radius: 10px;
+} */
+
+button{
+    padding: 10px 40px;
+    margin: 10px 20px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    background: dimgray;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+
+
+button#decrement{
+    background-color: yellow;
+    color: black;
+    border: 2px solid rgb(41, 145, 190);
+}
+
+button#reset{
+    background-color: #e6e4e4;
+    color: black;
+    border: 2px solid rgb(41, 145, 190);
+}
+
+button#increment{
+    background-color: #c4e538;
+    color: black;
+    border: 2px solid rgb(41, 145, 190);
+}
+
+/* button#increment:hover{
+    background: #009432;
+    color: #fff;
+} */
