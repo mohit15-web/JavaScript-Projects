@@ -3,3 +3,4 @@
 ## [color Fliper](https://mohit15-web.github.io/JavaScript-Projects/color%20Fliper/)
 ## [Digital Clock](https://mohit15-web.github.io/JavaScript-Projects/DigitalClock/)
 ## [Stop Watch](https://mohit15-web.github.io/JavaScript-Projects/stopWatch/)
+## [Burger King](https://mohit15-web.github.io/JavaScript-Projects/burgerKing/)
